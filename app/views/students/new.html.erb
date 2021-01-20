@@ -1,1 +1,8 @@
 <!-- Create your form here -->
+<%= form_tag students_path do %>
+<h1>New Student</h1>
+<label>Post title:</label><br>
+<%= text_field_tag :first_name %><br>
+
+<label>Post Description</label><br>
+<%= text_field_tag :last_name %><br>
